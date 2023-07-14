@@ -1,0 +1,174 @@
+form {
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4c65af;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4556a0;
+  }
+  /*-----------------Login----------------------  */
+  form {
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4c57af;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4560a0;
+  }
+  /*...................Home page.......................*/
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .webhead {
+    margin: 50px 10px 28px 569px;
+}
+  /* .img{
+    height: 270px;
+    margin-left: 520px;
+  } */
+  
+  .cta-btn {
+    background-color: #4c56af;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+
+    margin-left: 1320px;
+    position: relative;
+    bottom: 240px;
+  }
+  
+  .cta-btn:hover {
+    background-color: #4562a0;
+  }
+  
+ 
+  input:invalid{
+    animation: shake 300ms;
+    color: red;
+
+  }
+
+  @keyframes shake{
+    25%{
+      transform: translateX(4px);
+    }
+    50%{
+      transform: translateX(-4px);
+    }
+    75%{
+      transform: translateX(4px);
+    }
+  }
+/* --------------------QR Generator------------------------*/
+.container {
+  margin-left: 50px;
+  position: relative;
+  bottom: 300px;
+  margin-top: 170px;
+}
+input#text {
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 40px;
+}
+button.gen {
+  padding: 5px;
+}
+button.gen:hover {
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+button:hover{
+  cursor: pointer;
+}
